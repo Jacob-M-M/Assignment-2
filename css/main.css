@@ -1,0 +1,304 @@
+/*Jacob MacPhail-McAughey 8932866 */
+
+html{
+    font-size: 15px;
+}
+
+header {
+    background: linear-gradient(to right, #BFDBF7, #E1E5F2, #BFDBF7);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+    flex-direction: column;
+    font: 1.3rem Arial, sans-serif;
+    padding: 1rem;
+}
+
+form {
+    border-radius: 2rem;
+    background: linear-gradient(to bottom, #c7cbd6,  #E1E5F2, #c7cbd6);
+    width: 50rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    border-radius: 1rem;
+    display: block;
+    width: 95%;
+    height: 2em;
+}
+
+fieldset{
+    padding-left: 0%;
+}
+
+.larger{
+    color: #1F7A8C;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 1em;
+    width: 1em;
+}
+
+textarea {
+    display: block;
+    width: 50%;
+}
+
+fieldset {
+    border: none;
+}
+
+.imgGrid{
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows: 25rem 25rem 25rem;
+}
+
+#img1{
+    clip-path: polygon(0 0, 97% 3%, 100% 100%, 4% 100%);
+}
+#img2{
+    clip-path: polygon(3% 2%, 97% 0, 100% 100%, 4% 100%);
+}
+#img3{
+    clip-path: polygon(2% 2%, 100% 0, 99% 100%, 0 100%);
+}
+#img4{
+    clip-path: polygon(2% 2%, 99% 3%, 97% 97%, 0 100%);
+}
+#img5{
+    clip-path: polygon(9% 0, 100% 0, 97% 97%, 3% 98%);
+}
+#img6{
+    clip-path: polygon(0 0, 99% 3%, 97% 97%, 3% 98%);
+}
+#img7{
+    clip-path: polygon(1% 1%, 99% 3%, 97% 97%, 0 100%);
+}
+#img8{
+    clip-path: polygon(2% 1%, 99% 1%, 97% 97%, 0 100%);
+}
+#img9{
+    clip-path: polygon(0 0, 99% 1%, 100% 100%, 4% 98%);
+}
+
+.gridImg{
+    border-radius: 1rem;
+    width: 80%;
+    height: 80%;
+}
+
+.flexnav li:hover .subnav > li {
+    top: 0;
+    display: block;
+}
+
+.subnav ul li {
+    display: none;
+    position: relative;
+}
+
+.subnav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subnav li{
+    display: none;
+    position: relative;
+}
+
+.flexnav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #E1E5F2;
+    height: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.flexnav a:hover {
+    background-color: #c0c3cc;
+    color: black;
+}
+
+.flexnav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.flexnav ul li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    flex: 4 8%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+h1 {
+    font-variant: small-caps;
+    color: #0E5C6B;
+    padding: 1rem;
+}
+
+h2 {
+    font-variant: small-caps;
+    color: #0E5C6B;
+}
+
+aside h2{
+    border-radius: 2rem;
+    background: linear-gradient(to bottom, #E1E5F2, #c7cbd6);
+    text-align: center;
+    padding: 0%;
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0%;
+}
+
+footer p {
+    display: flex;
+    font-size: 1rem;
+    color: #136079;
+    background: linear-gradient(to right, #BFDBF7, #E1E5F2, #BFDBF7);
+    padding: 1rem;
+}
+
+main {
+    flex: 2 1 75%;
+}
+
+.mainInfo {
+    display: inline-block;
+}
+
+aside {
+    border-radius: 2rem;
+    background-image: url("../images/Repeat1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1 2 25%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.mainimg {
+    float: left;
+    shape-outside: inset(0% 0% 0% 0% round 10rem);
+    clip-path: inset(0% 0% 0% 0% round 10rem);
+}
+iframe{
+    border-radius: 2rem;
+}
+figcaption {
+    display: block;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.moreRows{
+    text-align: top;
+}
+.rows{
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to bottom, #E1E5F2, #c7cbd6);
+}
+.Title{
+    padding: 1rem;
+    text-align: center;
+    color: #0E5C6B;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #E1E5F2, #c7cbd6);
+}
+table{
+    margin: 2rem;
+}
+
+aside ul li {
+    background: linear-gradient(to bottom, #E1E5F2, #c7cbd6);
+    display: block;
+    border-radius: 2rem;
+    list-style: none;
+    line-height: 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    width: 10rem;
+}
+
+aside li>a {
+    color: #0E5C6B;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #0f9bca;
+}
+
+@media (max-width: 1200px)
+{
+    html{
+        font-size: 10px;
+    }
+    .imgGrid{
+        grid-template-columns: 25rem 25rem;
+        grid-template-rows: 25rem 25rem 25rem 25rem 25rem;
+    }
+    aside{
+        background-image: url("../images/Repeat2.jpg");
+        background-repeat: repeat;
+        background-size: unset;
+    }
+}
+@media (max-width: 600px)
+{
+    html{
+        font-size: 5px;
+    }
+    .imgGrid{
+        grid-template-columns: 25rem;
+        grid-template-rows: 25rem 25rem 25rem 25rem 25rem 25rem 25rem 25rem 25rem;
+    }
+    aside{
+        background-image: url("../images/Repeat3.png");
+        background-repeat: repeat;
+        background-size: unset;
+    }
+}
